@@ -29,13 +29,45 @@
     </div>
   </div>
 
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="テキスト入力欄">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default">検索</button>
+    </span>
+  </div>
+  <form role="search" method="get" id="searchform" class="searchform" action="<?php echo home_url('/'); ?>">
+	<div>
+		<label class="screen-reader-text" for="s">検索:</label>
+		<input type="text" value="" name="s" id="s" />
+		<input type="submit" id="searchsubmit" value="検索" />
+	</div>
+  </form>
+  get_template_part('func/my_searchform');
+  <?php 
+ function my_searchform($color)
+  {
+	if($color==2){$color='primary';}
+	elseif($color==3){$color='success';}
+	elseif($color==4){$color='info';}
+	elseif($color==5){$color='warning';}
+	elseif($color==6){$color='danger';}
+	else{$color='default';}
+  ?>
+
+  <form  action="<?php echo home_url('/');?>" >
+	<div class="input-group">
+		<input type="text" name="s" id="s" value="" class="form-control" style="height:32px;" placeholder="ブログ検索">
+		<span class="input-group-btn">
+			<button type="submit" class="btn btn-<?php echo $color;?>  btn-sm"><span class="dashicons dashicons-search" aria-hidden="true"></span></button>
+		</span>
+	</div>
+ </form>
+	
+ <?php
+  }
+  ?>
+
   <div class="container">
-    <div class="input-group">
-        <input type="text" class="form-control" placeholder="テキスト入力欄">
-        <span class="input-group-btn">
-            <button type="button" class="btn btn-default">検索</button>
-        </span>
-    </div>
     <div class="col-1 debug">
         <div class="d-flex align-items-start flex-column bd-highlight mb-3" style="height: 200px;">
             <div class="col bd-highlight">フォルダー名</div>
