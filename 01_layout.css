@@ -1,0 +1,69 @@
+.header{
+    height: 20px;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    text-align: center;
+}
+
+.wrap{
+    display:flex;
+}
+
+.sbar{
+    width: 25%;
+    margin: 10px;
+    border: 1px dashed;
+}
+
+.sbar-b{
+    border: 1px dotted;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.main-a{
+    border: 1px dashed;
+    padding: 5px;
+    text-align: center;
+}
+
+.container-b{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.wrap-b{
+    width: 25%;
+    border: 1px dashed;
+    padding: 5px;
+}
+
+.mail{
+    border: 1px dashed;
+}
+
+.mail-b{
+    border: 1px dotted;
+    margin: 5px;
+    padding: 5px;
+}
