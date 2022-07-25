@@ -2,7 +2,7 @@
     height: 10px;
 }
 
-.container{
+container{
     width: 100vw;
     display: flex;
     flex-direction: column; 
@@ -16,7 +16,7 @@
 }
 
 .wrap{
-    display.flex;
+    display:flex;
 }
 
 .sidebar{
