@@ -20,32 +20,33 @@ container{
     flex-direction: row;
     flex-grow: 1;
     text-align: center;
+    border: dashed;
 }
 
 .wrap{
     display:flex;
 }
 
-.sidebar{
+.sbar{
     width: 30%;
     margin-right: 10px;
     border: 1px dashed ;
 }
 
-.sidebar-c{
+.sbar-b{
     border: 1px dotted;
     margin: 5px;
     padding: 5px;
     text-align: center;
 }
 
-.main-c{
+.main-b{
     border: 1px dashed ;
     padding: 4px;
     text-align: center;
 }
 
-.container-2{
+.container-b{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -59,7 +60,7 @@ container{
     margin: 10px 0px;
 }
 
-.wrap-c{
+.wrap-b{
     width: 30%;
     border: 1px dashed ;
     padding: 4px;
@@ -69,7 +70,7 @@ container{
     border: 1px dashed ;
 }
 
-.mail-c{
+.mail-b{
     border: 1px dotted;
     margin: 4px;
     padding: 4px;
