@@ -20,7 +20,7 @@ container{
     flex-direction: row;
     flex-grow: 1;
     text-align: center;
-    border: dashed;
+    border: 1px dashed;
 }
 
 .wrap{
