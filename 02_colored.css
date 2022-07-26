@@ -1,0 +1,79 @@
+.body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 10px;
+}
+
+container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column; 
+}
+
+.side{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    text-align: center;
+    border: 1px dashed;
+}
+
+.wrap{
+    display:flex;
+}
+
+.sbar{
+    width: 30%;
+    margin-right: 10px;
+    border: 1px dashed ;
+    color: cornflowerblue;
+}
+
+.sbar-b{
+    border: 1px dotted;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.main-b{
+    border: 1px dashed ;
+    padding: 4px;
+    text-align: center;
+}
+
+.container-b{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.wrap-b{
+    width: 30%;
+    border: 1px dashed ;
+    padding: 4px;
+}
+
+.mail{
+    height: 300px;
+    border: 1px dashed ;
+}
+
+.mail-b{
+    border: 1px dotted;
+    margin: 4px;
+    padding: 4px;
+}
