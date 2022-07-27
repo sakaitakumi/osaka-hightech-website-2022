@@ -12,7 +12,7 @@
 container{
     width: 100vw;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .side{
@@ -52,6 +52,7 @@ container{
     flex-direction: column;
     flex-grow: 1;
     text-align: center;
+    background-color: white; 
 }
 
 .wrap{
@@ -69,7 +70,7 @@ container{
 
 .mail{
     height: 300px;
-    border: 1px dashed ;
+    border: 1px dashed ; 
 }
 
 .mail-b{
