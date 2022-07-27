@@ -78,3 +78,10 @@ container{
     margin: 4px;
     padding: 4px;
 }
+
+@media screen and (max-width: 900px) {
+    body{
+        width: 100%;
+    }
+    
+}
